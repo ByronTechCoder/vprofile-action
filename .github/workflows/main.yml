@@ -1,5 +1,5 @@
 name: vprofile actions
-on: workflow_dispatch:
+on: workflow_dispatch
 env: 
   AWS_REGION: us-east-1
   ECR_REGISTRY: 771174261648.dkr.ecr.us-east-2.amazonaws.com
