@@ -42,7 +42,7 @@ jobs:
 
       - name: SonarQuobe Quality Gate
         id: sonarqube-quality-gate-check
-        uses: sonarsource/sonarcloud-guality-gate-action@master
+        uses: sonarsource/sonarcloud-quality-gate-action@master
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_URL }}
